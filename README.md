@@ -5,17 +5,26 @@ This repository contains code and data for a machine learning project aimed at p
 Data
 The data used in this project is stored in the data directory. It is a CSV file containing customer information and transaction history. The columns in the dataset include:
 
-customer_id: The unique identifier for each customer.
-age: The age of the customer.
-gender: The gender of the customer.
-balance: The current balance in the customer's account.
-num_products: The number of bank products the customer has purchased.
-has_credit_card: Whether or not the customer has a credit card.
-is_active_member: Whether or not the customer is an active member of the bank.
-estimated_salary: The estimated salary of the customer.
-Exited: Whether or not the customer has left the bank.
+1. customer_id: The unique identifier for each customer.
+
+2. age: The age of the customer.
+
+3. gender: The gender of the customer.
+
+4. balance: The current balance in the customer's account.
+
+5. num_products: The number of bank products the customer has purchased.
+
+6. has_credit_card: Whether or not the customer has a credit card.
+
+7. is_active_member: Whether or not the customer is an active member of the bank.
+
+8. estimated_salary: The estimated salary of the customer.
+
+9. Exited: Whether or not the customer has left the bank.
 
 The code for this project is stored in the src directory. It includes the following files:
 
 Bank Customer Churn Prediction_EDA.py: A script for cleaning, preprocessing and EDA of the data.
+
 churn_model_training.py: A script for training a machine learning model on the preprocessed data.
